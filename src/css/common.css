@@ -16,3 +16,61 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.btnActive {
+  font-family: Roboto;
+  padding: 8px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(69, 154, 92, 1) 0%,
+    rgba(8, 255, 160, 0.6393907904958859) 100%
+  );
+}
+
+.btnActive:hover {
+  background-image: linear-gradient(
+    90deg,
+    rgba(23, 80, 38, 1) 0%,
+    rgba(46, 237, 163, 0.6393907904958859) 100%
+  );
+}
+
+.btnDisabled {
+  font-family: Roboto;
+  padding: 8px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color:  #c5c5c5;
+}
+
+.timer {
+  display: flex;
+  gap: 5px 15px;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-family: Roboto;
+  font-size: 50px;
+}
+
+.label {
+  font-family: Roboto;
+  font-size: 15px;
+  text-transform: uppercase;
+}
