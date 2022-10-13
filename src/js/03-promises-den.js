@@ -14,7 +14,7 @@ function onFormSubmit(event) {
 
   for (let i = 0; i < amount; i++) {
     const position = i + 1;
-    const delay = i === 0 ? global_delay : global_delay + i * step;
+    const delay = i == 0 ? global_delay : global_delay + i * step;
     console.log(delay);
 
     createPromise(position, delay)
